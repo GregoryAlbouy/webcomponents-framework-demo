@@ -1,0 +1,44 @@
+@use '../../assets/style/utils' as u;
+
+:host {
+    display: inline-block;
+    color: #CCC;
+    cursor: pointer;
+}
+
+.img-container {
+    width: 10rem;
+    height: 10rem;
+    transition: transform .3s;
+
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1rem;
+        object-fit: contain;
+        object-position: center;
+        transition: opacity .3s;
+    }
+}
+
+p {
+    opacity: 0;
+    transition: transform .3s, opacity .3s;
+}
+
+:host(:hover) {
+    p {
+        opacity: 1;
+    }
+}
+
+:host(.edit) {
+    .img-container {
+        transform: scale(.01);
+    }
+
+    p {
+        transform: translateY(-6.8rem);
+    }
+}

@@ -1,0 +1,15 @@
+@use '../../assets/style/utils' as u;
+
+:host {
+    display: block;
+    letter-spacing: inherit;
+}
+
+h1 {
+    margin: 4rem auto;
+    color: u.$main-color;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}

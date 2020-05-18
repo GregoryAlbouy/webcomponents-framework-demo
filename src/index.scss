@@ -1,0 +1,13 @@
+@use './assets/style/utils' as u;
+@use './assets/style/base';
+
+body {
+    background: url('./assets/images/background.jpg');
+    font-family: "Anton", sans-serif;
+    font-weight: 100;
+    letter-spacing: .08rem;
+}
+
+li {
+    background: red !important;
+}
