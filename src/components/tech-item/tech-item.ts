@@ -1,7 +1,7 @@
 import HTML_STR from './tech-item.c.html'
 import CSS_STR from './tech-item.c.scss'
 import { Component, BaseComponent } from '../components'
-import ElementBuilder from '../../shared/ElementBuilder'
+import EBuilder from 'ebuilder-js'
 
 @Component({
     tagname: 'tech-item',
@@ -52,7 +52,7 @@ export default class TechItem extends BaseComponent
         }
 
         this.setAttribute('edit', '')
-        const input = ElementBuilder('input').set({
+        const input = EBuilder('input').set({
             attributes: { type: 'text', value: this.props.name },
             listeners: [ ['keydown', validate] ],
             replace: label
@@ -81,7 +81,7 @@ export default class TechItem extends BaseComponent
             imgSrc = getImageSource('unknown')
         }
 
-        ElementBuilder(imgElt).setAttributes({
+        EBuilder(imgElt).setAttributes({
             alt: name,
             src: imgSrc
         })
