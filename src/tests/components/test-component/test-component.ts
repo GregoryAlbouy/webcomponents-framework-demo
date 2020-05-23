@@ -1,6 +1,6 @@
 import HTML_STR from './test-component.c.html'
 import CSS_STR from './test-component.c.scss'
-import { Component, BaseComponent } from '../components.test'
+import { Component, BaseComponent } from '../../../components/components'
 
 @Component({
     tagname: 'test-component',
