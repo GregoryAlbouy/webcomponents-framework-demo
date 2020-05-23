@@ -1,5 +1,5 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "webcomponents-framework-demo",
   "version": "1.0.0",
   "description": "Build webapps using native custom elements, with separate HTML, CSS and script file with no configuration.",
   "main": "./src/index.ts",
