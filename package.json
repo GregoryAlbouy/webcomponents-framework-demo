@@ -39,6 +39,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.9.6"
+    "@babel/runtime": "^7.9.6",
+    "ebuilder-js": "0.0.7"
   }
 }
