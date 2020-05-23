@@ -8,4 +8,5 @@ import { Component, BaseComponent } from '../components.test'
 })
 export default class TestComponent extends BaseComponent
 {
+    
 }
