@@ -2,7 +2,7 @@
 
 Short usage example from my [Webcomponents Framework](https://github.com/gregoryalbouy/webcomponents-framework)
 
-Live demo: [here](https://gregoryalbouy.github.io/webcomponents-framework-demo/)
+Live demo: [here](https://gregoryalbouy.github.io/webcomponents-framework-demo/dist/)
 
 For this example I also use [EBuilder](https://github.com/gregoryalbouy/ebuilder), a custom library I recently started to develop in order to create, edit and manipulate elements the intuitive and pleasant way.
 
